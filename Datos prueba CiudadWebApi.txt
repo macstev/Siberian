@@ -1,0 +1,20 @@
+----------WEB API ---->> CiudadWebApi
+1.- Generar el token desde la siguiente url https://localhost:44340/JwtToken
+2.- Para insertar copiar y pegar el token en el header luego utilizar la url https://localhost:44340/api/Ciudad
+3.- Para actualizar copiar y pegar el token en el header luego utilizar la url https://localhost:44340/api/Ciudad/Ambato
+    Reemplazar en la url la palabra Ambato por la ciudad que desee actualizar el registro.
+
+
+
+ejemplo de json (Los parametros que no están se generan internamente):
+
+-----Insertar
+{
+    "nombreCiudad": "Ambato"
+}
+
+-----Actualizar
+
+{
+  "nombreCiudad": "Ambato tierra de flores"
+}
