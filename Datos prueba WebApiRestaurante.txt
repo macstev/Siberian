@@ -1,0 +1,43 @@
+-----------INSERTAR RESTAURANTE
+url: https://localhost:44382/api/Output
+
+{
+  "insertar_NombreRestaurante": "MICHAEL",
+  "insertar_NombreCiudad": "GALAPAGOS",
+  "insertar_NumeroAforo": 54,
+  "insertar_Telefono": 7855258
+}
+
+
+
+---------ACTUALIZAR RESTAURANT
+url: https://localhost:44382/api/Output/MICHAEL
+
+
+{
+  "actualizar_NombreRestaurante": "MICHAEL222222",
+  "actualizar_NombreCiudad": "GALAPAGOS",
+  "actualizar_NumeroAforo": 82,
+  "actualizar_Telefono": 855
+}
+
+
+--------Buscar un restaurante
+url: https://localhost:44382/api/Output/MICHAEL222222
+
+
+---------ElIMINAR RESTAURANTE 
+url: https://localhost:44382/api/Output/MICHAEL222222
+
+{
+  "actualizar_NombreRestaurante": "MICHAEL222222",
+  "actualizar_NombreCiudad": "GALAPAGOS",
+  "actualizar_NumeroAforo": 82,
+  "actualizar_Telefono": 855
+}
+
+---------Buscar todos los restaurantes
+url: https://localhost:44382/api/Output
+
+
+
